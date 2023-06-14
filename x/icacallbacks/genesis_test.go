@@ -9,10 +9,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
+	tmproto "github.com/cometbft/cometbft/proto/tendermint/types"
 	"github.com/lum-network/chain/x/icacallbacks"
 	"github.com/lum-network/chain/x/icacallbacks/types"
 	"github.com/stretchr/testify/require"
-	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 )
 
 func TestGenesis(t *testing.T) {

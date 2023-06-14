@@ -8,7 +8,6 @@ import (
 	errorsmod "cosmossdk.io/errors"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
-	gogotypes "github.com/gogo/protobuf/types"
 	icacallbackstypes "github.com/lum-network/chain/x/icacallbacks/types"
 	"github.com/lum-network/chain/x/millions/types"
 )

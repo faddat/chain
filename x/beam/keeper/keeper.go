@@ -18,8 +18,8 @@ import (
 
 	"github.com/lum-network/chain/utils"
 
+	"github.com/cometbft/cometbft/libs/log"
 	"github.com/lum-network/chain/x/beam/types"
-	"github.com/tendermint/tendermint/libs/log"
 )
 
 type (

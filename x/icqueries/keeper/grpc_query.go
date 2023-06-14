@@ -3,8 +3,6 @@ package keeper
 import (
 	"context"
 
-	"github.com/lum-network/chain/x/icqueries/types"
-
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/lum-network/chain/x/icqueries/types"
 )

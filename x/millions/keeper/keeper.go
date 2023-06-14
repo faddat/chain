@@ -3,9 +3,6 @@ package keeper
 import (
 	"fmt"
 
-	icquerieskeeper "github.com/lum-network/chain/x/icqueries/keeper"
-
-	"github.com/cometbft/cometbft/libs/log"
 	"github.com/cosmos/cosmos-sdk/codec"
 	storetypes "github.com/cosmos/cosmos-sdk/store/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
@@ -21,10 +18,10 @@ import (
 	ibckeeper "github.com/cosmos/ibc-go/v7/modules/core/keeper"
 	tendermint "github.com/cosmos/ibc-go/v7/modules/light-clients/07-tendermint"
 
+	"github.com/cometbft/cometbft/libs/log"
 	icacallbackskeeper "github.com/lum-network/chain/x/icacallbacks/keeper"
 	icquerieskeeper "github.com/lum-network/chain/x/icqueries/keeper"
 	"github.com/lum-network/chain/x/millions/types"
-	"github.com/tendermint/tendermint/libs/log"
 )
 
 type Keeper struct {

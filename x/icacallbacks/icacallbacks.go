@@ -11,8 +11,8 @@ import (
 	ibctransfertypes "github.com/cosmos/ibc-go/v7/modules/apps/transfer/types"
 	channeltypes "github.com/cosmos/ibc-go/v7/modules/core/04-channel/types"
 
+	"github.com/cometbft/cometbft/libs/log"
 	"github.com/lum-network/chain/x/icacallbacks/types"
-	"github.com/tendermint/tendermint/libs/log"
 )
 
 // Parses ICA tx responses and returns a list of each serialized response

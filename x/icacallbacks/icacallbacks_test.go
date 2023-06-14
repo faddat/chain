@@ -17,10 +17,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
+	"github.com/cometbft/cometbft/libs/log"
 	"github.com/lum-network/chain/x/icacallbacks"
 	icacallbacktypes "github.com/lum-network/chain/x/icacallbacks/types"
 	"github.com/stretchr/testify/require"
-	"github.com/tendermint/tendermint/libs/log"
 )
 
 // Constructs an ICA Packet Acknowledgement compatible with ibc-go v5+.

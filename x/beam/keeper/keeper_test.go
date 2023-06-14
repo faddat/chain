@@ -11,6 +11,7 @@ import (
 	"github.com/cosmos/cosmos-sdk/baseapp"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
+	tmproto "github.com/cometbft/cometbft/proto/tendermint/types"
 	apptypes "github.com/lum-network/chain/app"
 	apptesting "github.com/lum-network/chain/app/testing"
 	"github.com/lum-network/chain/utils"
@@ -18,7 +19,6 @@ import (
 	"github.com/lum-network/chain/x/beam/types"
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
-	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 )
 
 type KeeperTestSuite struct {

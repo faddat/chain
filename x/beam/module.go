@@ -17,12 +17,12 @@ import (
 
 	"github.com/cosmos/cosmos-sdk/types/module"
 
+	abci "github.com/cometbft/cometbft/abci/types"
 	"github.com/lum-network/chain/x/beam/client/cli"
 	"github.com/lum-network/chain/x/beam/keeper"
 	"github.com/lum-network/chain/x/beam/migrations"
 	"github.com/lum-network/chain/x/beam/types"
 	"github.com/spf13/cobra"
-	abci "github.com/tendermint/tendermint/abci/types"
 )
 
 var (

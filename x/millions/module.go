@@ -20,8 +20,6 @@ import (
 	"github.com/lum-network/chain/x/millions/client/rest"
 	"github.com/lum-network/chain/x/millions/keeper"
 	"github.com/lum-network/chain/x/millions/types"
-	"github.com/spf13/cobra"
-	abci "github.com/tendermint/tendermint/abci/types"
 )
 
 var (
